@@ -1,0 +1,19 @@
+// Impostazioni di base dei colori
+$primary: #C0392B;    // Rosso principale
+$secondary: #E74C3C;  // Rosso secondario
+$light-bg: #BDC3C7;   // Grigio chiaro per sfondi
+$dark-bg: #2C3E50;    // Grigio scuro per testi
+$white: #FFFFFF;      // Bianco
+
+// Variabili di Bootstrap (per sovrascrivere i default)
+$body-bg: $light-bg;
+$text-color: $dark-bg;
+$navbar-dark-color: $white;
+$navbar-dark-bg: $primary;
+$btn-primary-bg: $primary;
+$btn-primary-border: $primary;
+
+// Includi Bootstrap per applicare le modifiche
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Aggiungi altre personalizzazioni se necessario
